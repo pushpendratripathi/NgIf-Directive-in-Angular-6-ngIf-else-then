@@ -1,23 +1,15 @@
 <div *ngIf= "yourname === 'pushpendra Tripathi'; else elsepart">
-
   Thank you for 10k
 </div>
-
 <ng-template #elsepart>
 Thak you for 20k
-
 </ng-template>
-
 -------------------------------------------------------------------------
 yourname:string = "pushpendra Tripathi";
-
 ________________________________________________________________________________________________________________________________
-
-
 <div *ngIf= "yourname === 'pushpendra1'; then main else elsepart">
- 
   </div>
-  
+
   <ng-template #main>
       Thank you for 10k
       
